@@ -25,7 +25,6 @@ add_executable(MNNInferenceDemo
 # 链接库
 target_link_libraries(MNNInferenceDemo 
                 opencv_world
-                dlib
                 MNN_Express
                 MNN
                 pthread
