@@ -6,10 +6,10 @@ set(CMAKE_CXX_STANDARD 11)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR})
 
 # 2. 设置OpenCV头文件路径
-include_directories(/home/gzy/3rdparty/include)
+include_directories(/home/xxx/3rdparty/include)
 
 # 3. 设置OpenCV库文件路径
-link_directories(/home/gzy/3rdparty/lib)
+link_directories(/home/xxx/3rdparty/lib)
 
 
 # 添加可执行文件
